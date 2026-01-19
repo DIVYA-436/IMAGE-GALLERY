@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMAGE GALLERY</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: black;
+            color: white;
+        }
+        h1{
+            text-shadow: 0px 0px 8px ;
+            padding: 20px;
+            color: rgb(238, 230, 230);
+        }
+
+
+        img{
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+        }
+        img:hover{
+            transform: scale(1.05);
+        }
+        .kdrama{
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+             gap: 30px;
+            padding: 40px;
+            }
+        #c{
+            background-color:rgb(98, 66, 66);
+            border-radius: 10px;
+            padding: 40px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0px 0px 8px;
+        }
+        #c:hover{
+            transform: translateY(-8px);
+             box-shadow: 0 12px 30px rgba(0,0,0,0.6);
+
+        }
+        
+        #c h3{
+             margin: 15px 0 8px;
+             font-size: 18px;
+        }
+        #c p{ font-size: 14px;
+            opacity: 0.9;
+            color: rgb(18, 3, 3);
+        }
+    </style>
+</head>
+<body>
+    <h1>DramaVerse Korea</h1>
+    <div class="kdrama">
+    <div id="c">
+        <img src="/clo.jpg">
+        
+        <h3>Crash Landing on You(2019)</h3>
+        <p>Romance • Drama</p>
+     </div>
+     <div id="c">
+        <img src="/g.jpg">
+        
+        <h3>Goblin(2016)</h3>
+        <p>Fantasy • Romance</p>
+     </div>
+     <div id="c">
+        <img src="/v.jpg">
+        
+        <h3>Vincenzo (2021)</h3>
+        <p>Crime • Dark Comedy</p>
+     </div>
+     <div id="c">
+        <img src="/tb.jpg">
+        
+        <h3>True Beauty (2020)</h3>
+        <p>Romance • School</p>
+     </div>
+     <div id="c">
+        <img src="/itsokk.jpg">
+        
+        <h3>It’s Okay to Not Be Okay</h3>
+        <p>Romance • Psychological</p>
+     </div>
+     <div id="c">
+        <img src="/25.avif">
+        
+        <h3>Twenty-Five Twenty-One</h3>
+        <p>Romance • Youth</p>
+     </div>
+     
+     <div id="c">
+        <img src="/qt.webp">
+        
+        <h3>Queen of Tears (2024)</h3>
+        <p>Melodrama</p>
+
+     </div>
+     <div id="c">
+        <img src="/k.ing.webp">
+        
+        <h3>The King: Eternal Monarch</h3>
+        <p>Fantasy • Sci-Fi</p>
+     </div>
+     </div>
+    
+    
+</body>
+</html>
